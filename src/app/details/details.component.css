@@ -1,0 +1,119 @@
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fdfdfd;
+    color: #222;
+    border-radius: 20px;
+}
+
+.movie-header {
+    display: flex;
+    margin-bottom: 40px;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-poster {
+    flex: 0 0 300px;
+}
+
+.movie-poster img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.movie-info {
+    flex: 1;
+    color: #222;
+}
+
+.movie-info h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-family: 'Lora', serif;
+    color: #1e3a8a; /* tamnoplava */
+}
+
+.original-title {
+    color: #777;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.movie-metadata {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.metadata-item i {
+    color: #1e3a8a;
+}
+
+.genre-chip {
+    display: inline-block;
+    background-color: rgba(30, 58, 138, 0.15);
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin: 0 6px 6px 0;
+    font-size: 14px;
+    color: #1e3a8a;
+}
+
+.short-description {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-style: italic;
+    color: #555;
+}
+
+.movie-description h2,
+.movie-cast h2,
+.screenings-section h2,
+.reviews-section h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    border-left: 6px solid #1e3a8a;
+    padding-left: 15px;
+    color: #1e3a8a;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cast-item {
+    background-color: #ececec;
+    padding: 12px 18px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.actor-name {
+    font-weight: bold;
+    color: #1e3a8a;
+}
+
+.screening-card {
+    background-color: #120122;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.screening-seats.low-seats {
+    color: #dc2626; /* crvena za upozorenje */
+    font-weight: bold;
+}
+
+.review-positive {
+    background-color: rgba(34, 197, 94, 0.2);
+    color: #22c55e;
+}
+
+.review-negative {
+    background-color: rgba(239, 68, 68, 0.2);
+    color: #ef4444;
+}

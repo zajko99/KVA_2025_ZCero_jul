@@ -1,0 +1,51 @@
+.auth-card {
+    max-width: 450px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.auth-card h1 {
+    text-align: center;
+    margin-bottom: 35px;
+    color: #003366; /* Tamnoplava boja za naslov */
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.full-width {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px dotted #ccc;
+    background-color: #f7f7f7;
+}
+
+mat-card-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+mat-card-actions button,
+mat-card-actions a {
+    flex: 1;
+    margin: 12px 10px;
+    padding: 10px 15px;
+    background-color: #003366; /* Tamnoplava dugmad */
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.4s ease;
+}
+
+mat-card-actions button:hover,
+mat-card-actions a:hover {
+    background-color: #00509e; /* Svetlija plava pri hoveru */
+}
